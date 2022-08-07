@@ -5,8 +5,9 @@ const TableHeader = () => {
         <thead>
             <tr>
                 <th scope="col">Sl</th>
-                <th scope="col">Name</th>
-                <th scope="col">Profession</th>
+                <th scope="col">Product Name</th>
+                <th scope="col">Cost Price</th>
+                <th scope="col">Sales Price</th>
             </tr>
         </thead>
     )
@@ -17,18 +18,21 @@ const TableBody = () => {
         <tbody>
             <tr>
                 <th scope="row">1</th>
-                <td>Ali Akbar</td>
-                <td>Accountant</td>
+                <td>Shirt</td>
+                <td>750</td>
+                <td>1000</td>
             </tr>
             <tr>
                 <th scope="row">2</th>
-                <td>Solaiman Shakil</td>
-                <td>Software Enginerr</td>
+                <td>T-Shirt</td>
+                <td>460</td>
+                <td>590</td>
             </tr>
             <tr>
                 <th scope="row">3</th>
-                <td>Sakib al Hasan</td>
-                <td>Cricketer</td>
+                <td>Panjabi</td>
+                <td>1050</td>
+                <td>1400</td>
             </tr>
         </tbody>
     )
